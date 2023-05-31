@@ -1,3 +1,4 @@
+import Nav from '@components/Nav'
 import '@styles/globals.css'
 export const metadata = {
   title: "Prompt Share",
@@ -11,6 +12,7 @@ const RootLayout = ({ children }) => {
           <div className="gradient" />
         </div>
         <main className="app">
+          <Nav />
           {children}
         </main>
 
